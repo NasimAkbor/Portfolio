@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import JS from "../files/js.png";
 import CSS from "../files/css-3.png";
 import HTML from "../files/html-5.png";
@@ -27,17 +27,17 @@ function About() {
         </p>
       </div>
       <div className="icons">
-        <img src={JS} />
-        <img src={CSS} />
-        <img src={HTML} />
-        <img src={EX} />
-        <img src={NJS} />
-        <img src={MDB} />
-        <img src={PSQL} />
-        <img src={PY} />
-        <img src={DJ} />
-        <img src={GH} />
-        <img src={HK} />
+        <img src={JS} alt='JavaScript' />
+        <img src={CSS} alt='CSS' />
+        <img src={HTML} alt='HTML' />
+        <img src={EX} alt='Express' />
+        <img src={NJS} alt='NodeJs' />
+        <img src={MDB} alt='MongoDB' />
+        <img src={PSQL} alt='PostgreSQL' />
+        <img src={PY} alt='Python' />
+        <img src={DJ} alt='Django' />
+        <img src={GH} alt='GitHub' />
+        <img src={HK} alt='Heroku' />
       </div>
     </div>
   );
