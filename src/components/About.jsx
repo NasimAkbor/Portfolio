@@ -16,14 +16,13 @@ function About() {
     <div id="about-me" className="App">
       <div className="about-me">
         <div className="profile-pic"></div>
-        <p>
-          Hello, I am Nasim Akbor. <br />
+        <p className="aboutPara">
           A Full-Stack Developer that loves to help others achieve their goals.
           I enjoy strategically breaking down problems in an effort to provide creative solutions.
-          My previous work in finance has allowed me to gain experience in working with teams and across
-          departments. Being sociable and understanding people as you bounce ideas towards a bigger picture provides a satisfying work
-          environment. Nothing beats the feeling of seeing your work make a difference, whether it be on a large scale or helping something
-          progress along the way.
+          My initial contact with the world of coding happened in highschool. I was fortunate enough to
+          partake in AP Java courses. I then went to college for finance and become an analyst. Along the way
+          I dabbled in some R; but overall had moved away from coding. In recent years I have come to find myself
+          drawn back to this particular world of problem-solving.
         </p>
       </div>
       <div className="icons">

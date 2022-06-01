@@ -24,12 +24,12 @@ function Nav(prop) {
       </div>
       <div className="navTab">
         <a
-          className="navLink"
+          className="navLink navTab "
           href={Resume}
           target="_blank"
           rel="noreferrer"
         >
-          <div className="icon">
+          <div className="icon individualTab">
             Resume <MdOutlineFileDownload />
           </div>
         </a>
