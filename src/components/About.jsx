@@ -1,4 +1,15 @@
-import React from "react";
+import React, { Fragment } from "react";
+import JS from "../files/js.png";
+import CSS from "../files/css-3.png";
+import HTML from "../files/html-5.png";
+import EX from "../files/Expressjs.png";
+import NJS from "../files/nodejs.png";
+import MDB from "../files/MongoDB_Logo.svg";
+import PSQL from "../files/postgre.png";
+import PY from "../files/python.png";
+import DJ from "../files/django.png";
+import GH from "../files/github.png";
+import HK from "../files/Heroku.png";
 
 function About() {
   return (
@@ -14,6 +25,19 @@ function About() {
           environment. Nothing beats the feeling of seeing your work make a difference, whether it be on a large scale or helping something
           progress along the way.
         </p>
+      </div>
+      <div className="icons">
+        <img src={JS} />
+        <img src={CSS} />
+        <img src={HTML} />
+        <img src={EX} />
+        <img src={NJS} />
+        <img src={MDB} />
+        <img src={PSQL} />
+        <img src={PY} />
+        <img src={DJ} />
+        <img src={GH} />
+        <img src={HK} />
       </div>
     </div>
   );
