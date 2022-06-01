@@ -1,0 +1,172 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+nav {
+  display: flex;
+  top: 0;
+  position: absolute;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid rgb(209, 207, 207);
+  z-index: 1;
+  background-color: rgb(180, 175, 175);
+}
+
+.navTab {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.navTab:hover {
+  cursor: pointer;
+}
+
+.individualTab {
+  color: rgb(81, 60, 60);
+  position: relative;
+  text-decoration: none;
+}
+
+.individualTab::after {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 4px;
+  background-color: rgb(146, 146, 146);
+  left: 50%;
+  bottom: -10px;
+  transition: all 0.4s ease-in-out;
+}
+
+.navTab:hover .individualTab::after {
+  width: 100%;
+  left: 0;
+}
+
+
+.App {
+  width: 100%;
+  margin: 0;
+  height: 10rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 20px;
+  margin-top: -100px;
+}
+
+.bodyContainer {
+  display: flex;
+  width: 400px;
+  height: 700px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  z-index: 3;
+  align-self: flex-start;
+  justify-self: flex-start;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin-top: 20vh;
+}
+
+.card {
+  /* border: 1px solid coral;
+  height: 50px;
+  padding: 7em;
+  padding-bottom: 3.3em;
+  margin: 1em;
+  flex-basis: 30%; */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 400px;
+  width: 500px;
+  background: #f2f2f2;
+  overflow: hidden;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 20px 8px #d0d0d0;
+  margin: 1em;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  text-align: justify;
+  color: black;
+  padding: 40px;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-weight: 900;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 300;
+}
+
+.flap {
+  width: 100%;
+  height: 100%;
+}
+
+.flap::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  background: url("https://i.imgur.com/TVapR4X.jpeg") white;
+  background-position: 0px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.flap::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  right: 0;
+  background: url("https://i.imgur.com/TVapR4X.jpeg") white;
+  background-position: -300px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.card:hover .flap::after {
+  transform: translatex(300px);
+}
+
+.card:hover .flap::before {
+  transform: translatex(-300px);
+}
+
+span {
+  color: indigo;
+}
+
+.container {
+  margin-top: 20%;
+  margin-left: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.truck-name {
+  text-align: center;
+}
