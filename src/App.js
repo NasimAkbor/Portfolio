@@ -1,5 +1,4 @@
 import './App.css';
-import { Fragment, useEffect, useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import Nav from './components/Nav';
 import Home from './components/Home';
