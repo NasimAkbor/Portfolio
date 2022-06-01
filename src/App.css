@@ -80,17 +80,11 @@ h1 {
 }
 
 .card {
-  /* border: 1px solid coral;
-  height: 50px;
-  padding: 7em;
-  padding-bottom: 3.3em;
-  margin: 1em;
-  flex-basis: 30%; */
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   height: 400px;
-  width: 500px;
+  width: 600px;
   background: #f2f2f2;
   overflow: hidden;
   border-radius: 20px;
@@ -123,24 +117,76 @@ h3 {
   height: 100%;
 }
 
-.flap::before {
+.IB::before {
   position: absolute;
   content: "";
   height: 100%;
   width: 50%;
-  background: url("https://i.imgur.com/TVapR4X.jpeg") white;
+  background: url("./images/InnerBod.png") white;
+  background-size: 600px 400px;
   background-position: 0px;
   background-repeat: no-repeat;
   transition: 1s;
 }
 
-.flap::after {
+.IB::after {
   position: absolute;
   content: "";
   height: 100%;
   width: 50%;
   right: 0;
-  background: url("https://i.imgur.com/TVapR4X.jpeg") white;
+  background: url("./images/InnerBod.png") white;
+  background-size: 600px 400px;
+  background-position: -300px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.AS::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  background: url("./images/AlienInvader.png") white;
+  background-size: 600px 400px;
+  background-position: 0px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.AS::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  right: 0;
+  background: url("./images/AlienInvader.png") white;
+  background-size: 600px 400px;
+  background-position: -300px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.CS::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  background: url("./images/CyberSleuth.jpeg") white;
+  background-size: 600px 400px;
+  background-position: 0px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.CS::after {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 50%;
+  right: 0;
+  background: url("./images/CyberSleuth.jpeg") white;
+  background-size: 600px 400px;
   background-position: -300px;
   background-repeat: no-repeat;
   transition: 1s;

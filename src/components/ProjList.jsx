@@ -7,6 +7,7 @@ const projList =
   [
     {
       name: "Inner Bod",
+      n2: "IB",
       description: "An App that allows users to check different organs of the body and see what food items would help keep the respective organs healthy.",
       image: IB,
       git: "https://github.com/Newbz521/TheInnerBod",
@@ -14,6 +15,7 @@ const projList =
     },
     {
       name: "Alien Shooter",
+      n2: "AS",
       description: "A game inspired from classics like Galage or Space Invaders. The user controls a ship and tries to defeat the alien invaders before they reach the bottom of the screen.",
       image: AI,
       git: "https://github.com/NasimAkbor/Galaga-Space-Invaders-esqure-Game",
@@ -21,6 +23,7 @@ const projList =
     },
     {
       name: "Digimon Cyber Sleuth Characters",
+      n2: "CS",
       description: "An API containing information for each digimon from the game, Digimon Story: Cyber Sleuth",
       image: CS,
       git: "https://github.com/NasimAkbor/Digimon-Cyber-Sleuth-API",
