@@ -1,6 +1,6 @@
-import IB from "../images/InnerBod.png";
-import AI from "../images/AlienInvader.png";
-import CS from "../images/CyberSleuth.jpeg"
+import IB from "../files/InnerBod.png";
+import AI from "../files/AlienInvader.png";
+import CS from "../files/CyberSleuth.jpeg"
 
 
 const projList =

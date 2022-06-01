@@ -1,13 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 function About() {
   return (
     <div id="about-me" className="App">
-      <h1>Hello, I am Nasim Akbor</h1>
       <div className="about-me">
         <div className="profile-pic"></div>
         <p>
+          Hello, I am Nasim Akbor. <br />
           A Full-Stack Developer that loves to help others achieve their goals.
           I enjoy strategically breaking down problems in an effort to provide creative solutions.
           My previous work in finance has allowed me to gain experience in working with teams and across

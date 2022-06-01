@@ -2,7 +2,7 @@ import React from "react";
 import projList from "./ProjList";
 
 function Card(props) {
-  let { name, n2, git, url, description, image } = projList[props.index];
+  let { name, n2, git, url, description } = projList[props.index];
 
   return (
     <div className="card">
